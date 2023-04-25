@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./all.min.css">
+    <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.27.2/axios.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/lodash.js/4.17.21/lodash.min.js"></script>
+    <!-- 위의 세 개 연결해주니까 뜨네요 why -->
+    <script src="./script.js"></script>
+    <title>Pagination</title>
+</head>
+<body>
+    <div class="app">
+        <table id="tblTodo">
+            <caption></caption>
+            <colgroup>
+                <col width="10%" />
+                <col width="10%" />
+                <col width="*" />
+                <col width="10%" />
+            </colgroup>
+            <thead>
+                <tr>
+                    <td>ID</td>
+                    <td>User ID</td>
+                    <td>Title</td>
+                    <td>Completed</td>
+                </tr>
+            </thead>
+            <tbody></tbody>
+        </table>
+
+        <div class="paging">
+            <i class="fa-solid fa-angles-left" id="first_page"></i>
+            <i class="fa-solid fa-angle-left" id="prev_page"></i>
+            <div class="pages">
+                <span class="active">1</span>
+                <span>2</span>
+                <span>3</span>
+                <span>4</span>
+                <span>5</span>
+            </div>
+            <i class="fa-solid fa-angles-right" id="next_page"></i>
+            <i class="fa-solid fa-angle-right" id="last_page"></i>
+        </div>
+    </div>
+</body>
+</html>
