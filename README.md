@@ -16,15 +16,15 @@
 BareMinimum : React / JavaScript로 Pagination 구현해보기
 Advanced : 검색 기능 구현해보기
 
-#### * [박효정 제출](/*주소 입력 예정*/)
+#### * [박효정 제출](https://github.com/wa-reureu-studyroom/react-basic02/tree/main/pagination_ParkHyoJeong)
 
 ```
 작성 요망
 ```
 
-#### * [조혜진 제출]( /*주소 입력 예정*/ )
+#### * [조혜진 제출](https://github.com/wa-reureu-studyroom/react-basic02/tree/main/paginationi_ChoHyeJin)
 
 ```
-작성 요망
+React 기반으로 dummy data를 임시로 생성 후 이를 이용하여 페이지네이션 구현 
 ```
 
